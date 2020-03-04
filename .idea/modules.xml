@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Rss-Manager.iml" filepath="$PROJECT_DIR$/Rss-Manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/Rss-Manager-app.iml" filepath="$PROJECT_DIR$/app/Rss-Manager-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rssmanager/Rss-Manager-rssmanager.iml" filepath="$PROJECT_DIR$/rssmanager/Rss-Manager-rssmanager.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/projects-Rss-Manager.iml" filepath="$PROJECT_DIR$/projects-Rss-Manager.iml" />
       <module fileurl="file://$PROJECT_DIR$/rssmanager/rssmanager.iml" filepath="$PROJECT_DIR$/rssmanager/rssmanager.iml" />
     </modules>
   </component>
