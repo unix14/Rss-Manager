@@ -3,7 +3,7 @@ apply plugin: 'com.android.library'
 ext {
     PUBLISH_GROUP_ID = 'com.crazyhitty.chdev.ks'
     PUBLISH_ARTIFACT_ID = 'rss-manager'
-    PUBLISH_VERSION = '0.86'
+    PUBLISH_VERSION = '0.87'
 }
 
 android {
@@ -13,8 +13,8 @@ android {
     defaultConfig {
         minSdkVersion 14
         targetSdkVersion 29
-        versionCode 6
-        versionName "0.86"
+        versionCode 8
+        versionName "0.888"
         multiDexEnabled true
     }
     buildTypes {
@@ -28,6 +28,10 @@ android {
     }
     dexOptions {
         javaMaxHeapSize "4g" //specify the heap size for the dex process
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
 }
 
