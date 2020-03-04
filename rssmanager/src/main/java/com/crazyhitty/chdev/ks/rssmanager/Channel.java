@@ -152,6 +152,9 @@ public class Channel {
         @Path("link")
         @Text(required = false)
         private String link;//The URL of the item.	http://www.nytimes.com/2002/09/07/movies/07FEST.html
+        @Path("image")
+        @Text(required = false)
+        private String image;//The URL of the image.	http://www.nytimes.com/images/cat.jpeg
         @Path("description")
         @Text(required = false)
         private String description;//The item synopsis.	Some of the most heated chatter at the Venice Film Festival this week was about the way that the arrival of the stars at the Palazzo del Cinema was being staged.
@@ -271,6 +274,14 @@ public class Channel {
                     ", pubDate='" + pubDate + '\'' +
                     ", source='" + source + '\'' +
                     '}';
+        }
+
+        public String getImage() {
+            return image;
+        }
+
+        public void setImage(String image) {
+            this.image = image;
         }
     }
 }
