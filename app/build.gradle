@@ -24,10 +24,6 @@ android {
     dexOptions {
         javaMaxHeapSize "4g" //specify the heap size for the dex process
     }
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
-    }
 }
 allprojects {
 
